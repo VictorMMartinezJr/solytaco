@@ -6,7 +6,7 @@ const About = () => {
       id="about"
       className="flex flex-col justify-center items-center my-12 gap-8 w-full text-white text-center px-2"
     >
-      <h2 className="text-xl font-chango text-yellow-500 sm:text-2xl lg:text-4xl">
+      <h2 className="font-lobster text-4xl text-yellow-500 lg:text-6xl">
         About Us
       </h2>
       {/* Intro text */}
@@ -31,10 +31,10 @@ const About = () => {
 
       {/* Bottom text */}
       <div className="flex flex-col gap-8 w-full lg:w-[50%]">
-        <p className="text-xl font-chango text-yellow-500 md:text-2xl lg:text-3xl xl:text-4xl">
+        <p className="font-lobster text-4xl text-yellow-500 lg:text-6xl">
           Vibrant flavors of Acapulco
         </p>
-        <p className="italic text-sm lg:text-lg">
+        <p className="text-sm lg:text-lg">
           Our lunch and dinner menus bring the tastes of the Guerrero region of
           Mexico to your table. Featuring the freshes of ingredients and
           incorporating the vibrant flavors of Acapulco into each freshly

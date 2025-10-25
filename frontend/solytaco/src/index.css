@@ -1,8 +1,9 @@
-@import url("https://fonts.googleapis.com/css2?family=Chango&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Chango&family=Lobster&display=swap");
 @import "tailwindcss";
 
 @theme {
   --font-chango: "Chango", sans-serif;
+  --font-lobster: "Lobster", sans-serif;
 }
 
 * {
