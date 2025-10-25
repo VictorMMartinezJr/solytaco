@@ -1,4 +1,6 @@
+import { Link } from "react-router-dom";
 import logo from "../assets/logo.png";
+import { HashLink } from "react-router-hash-link";
 const Navbar = () => {
   return (
     <nav className="w-full h-auto font-chango text-white bg-gray-950 p-2">
@@ -31,19 +33,26 @@ const Navbar = () => {
 
         {/* Nav links */}
         <ul className="flex w-full justify-around font-bold lg:w-[50%] lg:text-lg">
-          <li className="p-1 mx-0.5 cursor-pointer hover:text-yellow-500 transition-colors">
-            <a href="#home">Home</a>
-          </li>
-          <li className="p-1 mx-0.5 cursor-pointer hover:text-yellow-500 transition-colors">
-            <a href="#about">About</a>
-          </li>
-          <li className="p-1 mx-0.5 cursor-pointer hover:text-yellow-500 transition-colors">
-            <a href="#menu">Menu</a>
-          </li>
-
-          <li className="p-1 mx-0.5 cursor-pointer hover:text-yellow-500 transition-colors">
-            Cart
-          </li>
+          <Link to="/">
+            <li className="p-1 mx-0.5 cursor-pointer hover:text-yellow-500 transition-colors">
+              Home
+            </li>
+          </Link>
+          <HashLink smooth to="/#about">
+            <li className="p-1 mx-0.5 cursor-pointer hover:text-yellow-500 transition-colors">
+              About
+            </li>
+          </HashLink>
+          <HashLink smooth to="/#menu">
+            <li className="p-1 mx-0.5 cursor-pointer hover:text-yellow-500 transition-colors">
+              Menu
+            </li>
+          </HashLink>
+          <Link to="/cart">
+            <li className="p-1 mx-0.5 cursor-pointer hover:text-yellow-500 transition-colors">
+              Cart
+            </li>
+          </Link>
         </ul>
       </div>
     </nav>

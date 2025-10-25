@@ -3,7 +3,7 @@ const MenuItem = ({ item }) => {
     <div className="flex flex-col gap-2">
       <img
         src={item.image}
-        alt="Tacos menu image"
+        alt={item.imageAlt}
         className="rounded cursor-pointer hover:scale-105 transition-transform"
       />
       <div className="flex justify-between">
