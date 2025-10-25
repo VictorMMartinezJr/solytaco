@@ -1,0 +1,10 @@
+@import url("https://fonts.googleapis.com/css2?family=Chango&display=swap");
+@import "tailwindcss";
+
+@theme {
+  --font-chango: "Chango", sans-serif;
+}
+
+* {
+  scroll-behavior: smooth;
+}
