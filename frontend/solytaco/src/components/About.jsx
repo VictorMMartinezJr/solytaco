@@ -1,4 +1,7 @@
-import menuMargaritas from "../assets/menu-margaritas.jpg";
+import bar from "../assets/bar.jpg";
+import chips from "../assets/chips.jpg";
+import nachos from "../assets/nachos.jpg";
+import burritos from "../assets/burritos.jpg";
 import logo from "../assets/logo.png";
 const About = () => {
   return (
@@ -23,10 +26,10 @@ const About = () => {
 
       {/* Photos */}
       <div className="grid grid-cols-2 gap-2 lg:grid-cols-4">
-        <img src={menuMargaritas} alt="" className="rounded-lg" />
-        <img src={menuMargaritas} alt="" className="rounded-lg" />
-        <img src={menuMargaritas} alt="" className="rounded-lg" />
-        <img src={menuMargaritas} alt="" className="rounded-lg" />
+        <img src={bar} alt="" className="rounded-lg" />
+        <img src={burritos} alt="" className="rounded-lg" />
+        <img src={nachos} alt="" className="rounded-lg" />
+        <img src={chips} alt="" className="rounded-lg" />
       </div>
 
       {/* Bottom text */}
