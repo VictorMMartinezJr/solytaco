@@ -13,7 +13,7 @@ const CartItem = ({ item }) => {
   };
 
   return (
-    <div className="flex gap-2">
+    <div className="flex justify-between text-right gap-2 border-2">
       <div className="flex flex-col gap-2">
         <img
           src={item.image}
@@ -32,7 +32,7 @@ const CartItem = ({ item }) => {
         </button>
       </div>
       <div className="flex flex-col">
-        <p>{item.name}</p>
+        <p className="text-xl font-chango">{item.name}</p>
         <p>${item.price}</p>
       </div>
     </div>
