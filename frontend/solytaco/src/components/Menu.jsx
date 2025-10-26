@@ -10,7 +10,7 @@ const Menu = () => {
         Menu
       </h2>
       {/* Menu items */}
-      <div className="grid grid-cols-1 gap-8 sm:grid-cols-2 lg:grid-cols-4 lg:text-2xl overflow-x-hidden">
+      <div className="grid grid-cols-1 gap-8 sm:grid-cols-2 lg:grid-cols-4 lg:text-2xl overflow-hidden">
         {menuItems.map((item) => (
           <MenuItem key={item.id} item={item} />
         ))}
